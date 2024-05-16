@@ -1,0 +1,39 @@
+[
+    {"id": 1,
+     "name":"Frank",
+     "foto": "images/57001.png",
+     "edad": 17,
+     "dni":"78965478",
+     "ECivil": "S"
+    },
+    {"id": 2, 
+    "name":"Rogger",
+    "foto": "images/57002.png",
+    "edad": 24,
+    "dni":"78965479",
+    "ECivil": "C"
+    },
+    {"id": 3, "name":"Luis",
+    "foto": "images/57003.png",
+    "edad": 20,
+    "dni":"78921458",
+    "ECivil": "C"
+    },
+    {"id": 4, "name":"Felipe",
+    "foto": "images/57004.png",
+    "edad": 48,
+    "dni":"78965478",
+    "ECivil": "V"
+    },
+    {"id": 5, "name":"Rosa",
+    "foto": "images/57005.png",
+    "edad": 14,
+    "dni":"78965478",
+    "ECivil": "S"
+    },
+    {"id": 6, "name":"Miguel",
+    "foto": "images/57006.png",
+    "edad": 27,
+    "dni":"78965478",
+    "ECivil": "C"}
+]
