@@ -56,11 +56,15 @@ class GestorUsuarios {
             
             $('#mainlogin').append(`
                 <div class="usuario-container">
-                    <div class="usuario">${usuario.name}</div>
-                    <div><img class="usuario-img" src="${usuario.foto}" alt="${usuario.name}'s Photo" style="${edadStyle}"></div>
-                    <div class="usuario" style="${edadStyle}">Edad: ${usuario.edad}</div>
-                    <div class="usuario">DNI: ${usuario.dni}</div>
-                    <div class="usuario">Estado Civil: ${usuario.ECivil}</div>
+                    <div class="usuario-imagen">
+                        <img class="usuario-img" src="${usuario.foto}" alt="${usuario.name}'s Photo" style="${edadStyle}">
+                    </div>
+                    <div class="usuario-info">
+                        <div class="usuario">${usuario.name}</div>
+                        <div class="usuario" style="${edadStyle}">Edad: ${usuario.edad}</div>
+                        <div class="usuario">DNI: ${usuario.dni}</div>
+                        <div class="usuario">Estado Civil: ${usuario.ECivil}</div>
+                    </div>
                 </div>
             `);
         });
